@@ -13,10 +13,10 @@
 		6D82F2CB236242000092C16B /* Secondary_Target.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D82F2C3236242000092C16B /* Secondary_Target.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6D82F2D12362420D0092C16B /* SecondaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F2D02362420D0092C16B /* SecondaryExtension.swift */; };
 		6D82F2D32362423F0092C16B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F2D22362423F0092C16B /* Extension.swift */; };
-		6D82F2DE236242E40092C16B /* Tertiary_Target.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D82F2DC236242E40092C16B /* Tertiary_Target.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6D82F2E1236242E40092C16B /* Tertiary_Target.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D82F2DA236242E40092C16B /* Tertiary_Target.framework */; };
 		6D82F2E2236242E40092C16B /* Tertiary_Target.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D82F2DA236242E40092C16B /* Tertiary_Target.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6D82F2E7236243070092C16B /* TertiaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F2E6236243070092C16B /* TertiaryExtension.swift */; };
+		6D82F2EC23624EF90092C16B /* Tertiary_Target.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D82F2DC236242E40092C16B /* Tertiary_Target.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,7 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D82F2DE236242E40092C16B /* Tertiary_Target.h in Headers */,
+				6D82F2EC23624EF90092C16B /* Tertiary_Target.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
