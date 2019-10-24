@@ -30,7 +30,8 @@ class ViewController: UIViewController {
          At the breakpoint ahead, running 'po self.somePropertyInAnotherTarget' works fine and lldb
          prints out the result as expected.
          
-         Tertiary Target has two files aside from its Info.plist, TertiaryExtension.Swift and Tertiary_Target.h.
+         Tertiary Target is structured similarly, and has two files aside from its Info.plist, TertiaryExtension.swift and Tertiary_Target.h.
+         Similar to Secondary Target, Tertiary Target also defines a variable and function inside TertiaryExtension.swift, and has its own extremely similar implementation.
          Tertiary_Target.h is empty besides for a comment, and its content does not seem to matter through my testing.
          However, two things do seem to matter:
          - The filename. The default mapping provided by module.modulemap means that the file should be named Tertiary_Target.h.
